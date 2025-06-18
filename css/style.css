@@ -25,7 +25,8 @@ main {
 
 #buttonContainer>button {
     aspect-ratio: 1;
-    padding: 2rem;
+    align-self: stretch;
+    justify-self: stretch;
     font-size: 1.5rem;
     font-weight: bold;
     border-radius: 1rem;
