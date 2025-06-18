@@ -8,4 +8,25 @@ body {
     margin: 0;
     padding: 0;
     height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    flex: 1;
+}
+
+#buttonContainer {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#buttonContainer>button {
+    aspect-ratio: 1;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
 }
